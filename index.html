@@ -8,11 +8,33 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<h1>Hello World!</h1>
+	<div id="fullpage">
+		<div style="background:url('assets/img/bg1.jpg');background-size:cover;" class="section bg-dark" id="home">
+			<div class="container">
+				<center>
+				<p style="font-size:64px;">So, you think you can save the world?</p>
+				</center>
+			</div>
+		</div>	
+		<div class="section">
+			<h1>Section 2</h1>
+		</div>
+		<div class="section">
+			<h1>Section 3</h1>
+		</div>
+		<div class="section">
+			<h1>Section 4</h1>
+		</div>
+	</div>
 
 	<!-- Javascript at the end of the body for faster loading -->
 	<script type="text/javascript" src="lib/jquery-2.2.0/jquery-2.2.0.min.js"></script>
 	<script type="text/javascript" src="lib/fullPage.js/jquery.fullpage.min.js"></script>
 	<script type="text/javascript" src="lib/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+		    $('#fullpage').fullpage();
+		});
+	</script>
 </body>
 </html>
