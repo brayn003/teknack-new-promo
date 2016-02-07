@@ -6,7 +6,7 @@
 	// $dbname="teknajvh_teknack15";        // Database name
 	$username="root";       // Username for Database
 	$password="";           // Database password
-	$dbname="teknack";        // Database name
+	$dbname="teknack_promo";        // Database name
 	
 	$con = mysql_connect($hostname,$username,$password) or die("Error connecting to database");  // Make Connection	
 	mysql_select_db($dbname)                     // Select Database

@@ -1,6 +1,6 @@
 <?php
-$msg = json_encode($_POST);
-mail("brayn003@gmail.com","My subject",$msg);
+// $msg = json_encode($_POST);
+// mail("brayn003@gmail.com","My subject","Hello");
 // echo $msg;
 //contact us
 // if(isset($_POST['contact'])){
