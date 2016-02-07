@@ -616,28 +616,28 @@
                         		</div>
                             </div>
                             <div class="form-bottom contact-form">
-			                    <form role="form" method="post" onsubmit="return validateForm()">
+			                    <form action="" name="contact" role="form" method="POST" onsubmit="return validateContactUs()">
 			                    	<div class="form-group">
-			                    		<label class="sr-only" for="contact-name">Name</label>
-			                        	<input type="text" name="email" placeholder="Name" class="contact-email form-control" id="contact-email">
+			                    		<label class="sr-only" for="contact-cname">Name</label>
+			                        	<input type="text" name="cname" placeholder="Name" class="contact-cname form-control" id="cname">
 			                        </div>
 			                    	<div class="form-group">
-			                    		<label class="sr-only" for="contact-email">Email</label>
-			                        	<input type="text" name="email" placeholder="Email" class="contact-email form-control" id="contact-email">
+			                    		<label class="sr-only" for="contact-cmail">Email</label>
+			                        	<input type="text" name="cmail" placeholder="Email" class="contact-cmail form-control" id="cmail">
 			                        </div>
 			                        <div class="form-group">
-			                    		<label class="sr-only" for="contact-email">Mobile Number</label>
-			                        	<input type="tel" name="email" placeholder="Mobile Number" class="contact-email form-control" id="contact-email">
+			                    		<label class="sr-only" for="contact-cnum">Mobile Number</label>
+			                        	<input type="tel" name="cnum" placeholder="Mobile Number" class="contact-cnum form-control" id="cnum">
 			                        </div>
 			                        <div class="form-group">
-			                        	<label class="sr-only" for="contact-subject">Subject</label>
-			                        	<input type="text" name="subject" placeholder="Subject" class="contact-subject form-control" id="contact-subject">
+			                        	<label class="sr-only" for="contact-csub">Subject</label>
+			                        	<input type="text" name="csub" placeholder="Subject" class="contact-csub form-control" id="contact-csub">
 			                        </div>
 			                        <div class="form-group">
-			                        	<label class="sr-only" for="contact-message">Message</label>
-			                        	<textarea name="message" placeholder="Message" class="contact-message form-control" id="contact-message"></textarea>
+			                        	<label class="sr-only" for="contact-cmsg">Message</label>
+			                        	<textarea name="cmsg" placeholder="Message" class="contact-cmsg form-control" id="cmsg"></textarea>
 			                        </div>
-			                        <button type="submit" class="btn">Send message</button>
+			                        <button  type="submit" name="contact" id="contact" class="btn btn-submit">Send message</button>
 			                    </form>
 		                    </div>
                         </div>
