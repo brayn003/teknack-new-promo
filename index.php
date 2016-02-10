@@ -753,8 +753,8 @@
     <script type="text/javascript">
         $(window).load(function() {
             $('#status').fadeOut();
-            $('#preloader').delay(350).fadeOut('slow');
-            $('body').delay(350).css({'overflow':'visible'});
+            $('#preloader').delay(50).fadeOut('slow');
+            $('body').delay(50).css({'overflow':'visible'});
         })
 	</script>
 	<script type="text/javascript">
