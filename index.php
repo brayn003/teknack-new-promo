@@ -498,7 +498,7 @@
 
 			<div class="container">
 				<div class="row wow animate flipInX">
-						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 card-container wow animate bounceInLeft">
+						<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 card-container wow animate bounceInLeft">
 							<div class="info-box card sp1 side shakeit">
 								<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 side back">
 									
@@ -507,7 +507,7 @@
 
 						</div><!--/.col-->
 
-						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 card-container wow animate bounceInLeft">
+						<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 card-container wow animate bounceInLeft">
 							<div class="info-box card sp2 side shakeit">
 								<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 side back">
 									
@@ -516,8 +516,17 @@
 
 						</div><!--/.col-->
 
-						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 card-container wow animate bounceInLeft">
+						<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 card-container wow animate bounceInLeft">
 							<div class="info-box card sp3 side shakeit">
+								<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 side back">
+									
+								</div>						
+							</div><!--/.info-box-->
+
+						</div>
+
+						<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 card-container wow animate bounceInLeft">
+							<div class="info-box card sp4 side shakeit">
 								<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 side back">
 									
 								</div>						
